@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0714B8072ACD4A5E00B560D6 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0714B8062ACD4A5E00B560D6 /* AmountView.swift */; };
 		07EDCC102ACBC5CD00795C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EDCC0F2ACBC5CD00795C4E /* AppDelegate.swift */; };
 		07EDCC122ACBC5CD00795C4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EDCC112ACBC5CD00795C4E /* SceneDelegate.swift */; };
 		07EDCC142ACBC5CD00795C4E /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EDCC132ACBC5CD00795C4E /* CalculatorVC.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0714B8062ACD4A5E00B560D6 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		07EDCC0C2ACBC5CD00795C4E /* TIP-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TIP-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EDCC0F2ACBC5CD00795C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07EDCC112ACBC5CD00795C4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				07EDCC522ACBCD9E00795C4E /* BillInputView.swift */,
 				07EDCC542ACBCDA200795C4E /* TipInputView.swift */,
 				07EDCC562ACBCDAA00795C4E /* SplitInpitView.swift */,
+				0714B8062ACD4A5E00B560D6 /* AmountView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0714B8072ACD4A5E00B560D6 /* AmountView.swift in Sources */,
 				07EDCC142ACBC5CD00795C4E /* CalculatorVC.swift in Sources */,
 				07EDCC642ACBF9E100795C4E /* UIView+Extension.swift in Sources */,
 				07EDCC4F2ACBCC7900795C4E /* LogoView.swift in Sources */,
