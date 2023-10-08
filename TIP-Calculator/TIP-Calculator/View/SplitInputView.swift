@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Combine
+import CombineCocoa
 
 class SplitInputView: UIView {
     
@@ -48,6 +50,8 @@ class SplitInputView: UIView {
         stackView.spacing = 0
         return stackView
     }()
+    
+    private let splitSubject: CurrentValueSubject<Int, Never> = .init(1)
     
     // MARK: - Method
     init() {
