@@ -50,6 +50,9 @@ class CalculatorVC: UIViewController {
         )
         
         let ouput = vm.transform(input: input)
+        ouput.updateViewPublisher.sink { result in
+            print(result)
+        }.store(in: &cancellables)
     }
 
     private func layout() {
