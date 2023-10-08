@@ -1,5 +1,5 @@
 //
-//  SplitInpitView.swift
+//  SplitInputView.swift
 //  TIP-Calculator
 //
 //  Created by 김민준 on 10/3/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SplitInpitView: UIView {
+class SplitInputView: UIView {
     
     private let headerView: HeaderView = {
         let view = HeaderView()
