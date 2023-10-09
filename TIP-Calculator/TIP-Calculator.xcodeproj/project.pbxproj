@@ -16,6 +16,8 @@
 		07BBF8052AD2E247008ABBC1 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBF8042AD2E247008ABBC1 /* UIResponder+Extension.swift */; };
 		07BBF8072AD2EC6D008ABBC1 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBF8062AD2EC6D008ABBC1 /* Int+Extension.swift */; };
 		07BBF8092AD2F7E5008ABBC1 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBF8082AD2F7E5008ABBC1 /* Double+Extension.swift */; };
+		07BBF80C2AD2FD71008ABBC1 /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 07BBF80B2AD2FD71008ABBC1 /* click.m4a */; };
+		07BBF80F2AD2FDA8008ABBC1 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBF80E2AD2FDA8008ABBC1 /* AudioPlayerService.swift */; };
 		07EDCC102ACBC5CD00795C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EDCC0F2ACBC5CD00795C4E /* AppDelegate.swift */; };
 		07EDCC122ACBC5CD00795C4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EDCC112ACBC5CD00795C4E /* SceneDelegate.swift */; };
 		07EDCC142ACBC5CD00795C4E /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EDCC132ACBC5CD00795C4E /* CalculatorVC.swift */; };
@@ -68,6 +70,8 @@
 		07BBF8042AD2E247008ABBC1 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
 		07BBF8062AD2EC6D008ABBC1 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		07BBF8082AD2F7E5008ABBC1 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		07BBF80B2AD2FD71008ABBC1 /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
+		07BBF80E2AD2FDA8008ABBC1 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
 		07EDCC0C2ACBC5CD00795C4E /* TIP-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TIP-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EDCC0F2ACBC5CD00795C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07EDCC112ACBC5CD00795C4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +143,22 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		07BBF80A2AD2FD4A008ABBC1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				07BBF80B2AD2FD71008ABBC1 /* click.m4a */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		07BBF80D2AD2FD97008ABBC1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				07BBF80E2AD2FDA8008ABBC1 /* AudioPlayerService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		07EDCC032ACBC5CD00795C4E = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +191,8 @@
 				07EDCC5D2ACBEB8300795C4E /* Extension */,
 				07EDCC582ACBEB4C00795C4E /* Config */,
 				07EDCC4D2ACBCC4000795C4E /* View */,
+				07BBF80D2AD2FD97008ABBC1 /* Service */,
+				07BBF80A2AD2FD4A008ABBC1 /* Resource */,
 				07EDCC132ACBC5CD00795C4E /* CalculatorVC.swift */,
 				07EDCC182ACBC5CF00795C4E /* Assets.xcassets */,
 				07EDCC1A2ACBC5CF00795C4E /* LaunchScreen.storyboard */,
@@ -367,6 +389,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BBF80C2AD2FD71008ABBC1 /* click.m4a in Resources */,
 				07EDCC1C2ACBC5CF00795C4E /* LaunchScreen.storyboard in Resources */,
 				07EDCC192ACBC5CF00795C4E /* Assets.xcassets in Resources */,
 			);
@@ -405,6 +428,7 @@
 				07EDCC5F2ACBEB9400795C4E /* UIColor+Extension.swift in Sources */,
 				07EDCC552ACBCDA200795C4E /* TipInputView.swift in Sources */,
 				07EDCC512ACBCD8C00795C4E /* ResultView.swift in Sources */,
+				07BBF80F2AD2FDA8008ABBC1 /* AudioPlayerService.swift in Sources */,
 				07EDCC532ACBCD9E00795C4E /* BillInputView.swift in Sources */,
 				07BBF8032AD2DACE008ABBC1 /* String+Extension.swift in Sources */,
 				07EDCC5C2ACBEB5C00795C4E /* ThemeFont.swift in Sources */,
