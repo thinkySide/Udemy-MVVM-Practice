@@ -18,6 +18,7 @@
 		07BBF8092AD2F7E5008ABBC1 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBF8082AD2F7E5008ABBC1 /* Double+Extension.swift */; };
 		07BBF80C2AD2FD71008ABBC1 /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 07BBF80B2AD2FD71008ABBC1 /* click.m4a */; };
 		07BBF80F2AD2FDA8008ABBC1 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBF80E2AD2FDA8008ABBC1 /* AudioPlayerService.swift */; };
+		07BBF8112AD3EC9B008ABBC1 /* Tip_CalculatorSnapshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBF8102AD3EC9B008ABBC1 /* Tip_CalculatorSnapshotTest.swift */; };
 		07EDCC102ACBC5CD00795C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EDCC0F2ACBC5CD00795C4E /* AppDelegate.swift */; };
 		07EDCC122ACBC5CD00795C4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EDCC112ACBC5CD00795C4E /* SceneDelegate.swift */; };
 		07EDCC142ACBC5CD00795C4E /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EDCC132ACBC5CD00795C4E /* CalculatorVC.swift */; };
@@ -72,6 +73,7 @@
 		07BBF8082AD2F7E5008ABBC1 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		07BBF80B2AD2FD71008ABBC1 /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
 		07BBF80E2AD2FDA8008ABBC1 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		07BBF8102AD3EC9B008ABBC1 /* Tip_CalculatorSnapshotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorSnapshotTest.swift; sourceTree = "<group>"; };
 		07EDCC0C2ACBC5CD00795C4E /* TIP-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TIP-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EDCC0F2ACBC5CD00795C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07EDCC112ACBC5CD00795C4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				07EDCC262ACBC5CF00795C4E /* TIP_CalculatorTests.swift */,
+				07BBF8102AD3EC9B008ABBC1 /* Tip_CalculatorSnapshotTest.swift */,
 			);
 			path = "TIP-CalculatorTests";
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BBF8112AD3EC9B008ABBC1 /* Tip_CalculatorSnapshotTest.swift in Sources */,
 				07EDCC272ACBC5CF00795C4E /* TIP_CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
